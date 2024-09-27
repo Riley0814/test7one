@@ -1,4 +1,4 @@
-flask
+flask==2.2.3
 line-bot-sdk==3.12.0
 gunicorn
 Flask-SQLAlchemy==3.1.1
