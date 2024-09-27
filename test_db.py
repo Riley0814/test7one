@@ -35,7 +35,7 @@ def get_delivered_orders():
     return Orders.query.filter_by(DeliveryStatusID=4).all()
 
 
-@app.before_first_request
+@app.before_request
 def create_tables():
     db.create_all()
 
